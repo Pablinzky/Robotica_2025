@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating example_control.egg-info
+writing example_control.egg-info/PKG-INFO
+writing dependency_links to example_control.egg-info/dependency_links.txt
+writing entry points to example_control.egg-info/entry_points.txt
+writing requirements to example_control.egg-info/requires.txt
+writing top-level names to example_control.egg-info/top_level.txt
+writing manifest file 'example_control.egg-info/SOURCES.txt'
+reading manifest file 'example_control.egg-info/SOURCES.txt'
+writing manifest file 'example_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/lib/python3.10/site-packages/example-control.egg-link (link to .)
+Installing controller_manager script to /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/lib/example_control
+Installing hardware_interface script to /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/lib/example_control
+Installing manipulator_controller script to /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/lib/example_control
+
+Installed /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_control
+running symlink_data
+creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/share/ament_index
+creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/share/ament_index/resource_index
+creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/share/ament_index/resource_index/packages
+symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_control/resource/example_control -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/share/ament_index/resource_index/packages
+symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_control/package.xml -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/share/example_control

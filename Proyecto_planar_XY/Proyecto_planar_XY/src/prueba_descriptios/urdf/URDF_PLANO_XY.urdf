@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<robot name="robot1_planar_xy">
+
+  <!-- BASE LINK -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.2 0.2 0.05"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.22 0.24 0.28 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- SHOULDER LINK -->
+  <link name="shoulder_link">
+    <visual>
+      <origin xyz="0.15 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.3 0.03 0.03"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1.00 0.55 0.00 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- ARM LINK -->
+  <link name="arm_link">
+    <visual>
+      <origin xyz="0.15 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.3 0.03 0.03"/>
+      </geometry>
+      <material name="green">
+        <color rgba="0.20 0.80 0.20 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- FOREARM LINK -->
+  <link name="forearm_link">
+    <visual>
+      <origin xyz="0.15 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.3 0.03 0.03"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="1.00 0.90 0.20 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- JOINT 1: SHOULDER (base → shoulder_link) -->
+  <joint name="shoulder_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="shoulder_link"/>
+    <origin xyz="0 0 0.02" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" lower="-3.14" upper="3.14" velocity="3"/>
+  </joint>
+
+  <!-- JOINT 2: ARM (shoulder_link → arm_link) -->
+  <joint name="arm_joint" type="revolute">
+    <parent link="shoulder_link"/>
+    <child link="arm_link"/>
+    <origin xyz="0.3 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" lower="-3.14" upper="3.14" velocity="3"/>
+  </joint>
+
+  <!-- JOINT 3: FOREARM (arm_link → forearm_link) -->
+  <joint name="forearm_joint" type="revolute">
+    <parent link="arm_link"/>
+    <child link="forearm_link"/>
+    <origin xyz="0.3 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" lower="-3.14" upper="3.14" velocity="3"/>
+  </joint>
+
+</robot>

@@ -1,0 +1,26 @@
+[1.618s] Invoking command in '/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_control': PYTHONPATH=/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_control/build --no-deps symlink_data
+[1.993s] running develop
+[2.305s] running egg_info
+[2.305s] creating example_control.egg-info
+[2.305s] writing example_control.egg-info/PKG-INFO
+[2.307s] writing dependency_links to example_control.egg-info/dependency_links.txt
+[2.307s] writing entry points to example_control.egg-info/entry_points.txt
+[2.308s] writing requirements to example_control.egg-info/requires.txt
+[2.308s] writing top-level names to example_control.egg-info/top_level.txt
+[2.308s] writing manifest file 'example_control.egg-info/SOURCES.txt'
+[2.311s] reading manifest file 'example_control.egg-info/SOURCES.txt'
+[2.313s] writing manifest file 'example_control.egg-info/SOURCES.txt'
+[2.315s] running build_ext
+[2.315s] Creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/lib/python3.10/site-packages/example-control.egg-link (link to .)
+[2.316s] Installing controller_manager script to /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/lib/example_control
+[2.317s] Installing hardware_interface script to /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/lib/example_control
+[2.318s] Installing manipulator_controller script to /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/lib/example_control
+[2.318s] 
+[2.318s] Installed /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_control
+[2.318s] running symlink_data
+[2.318s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/share/ament_index
+[2.318s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/share/ament_index/resource_index
+[2.318s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/share/ament_index/resource_index/packages
+[2.318s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_control/resource/example_control -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/share/ament_index/resource_index/packages
+[2.319s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_control/package.xml -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/share/example_control
+[2.415s] Invoked command in '/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_control' returned '0': PYTHONPATH=/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_control/build --no-deps symlink_data

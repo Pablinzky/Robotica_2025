@@ -1,0 +1,26 @@
+[1.639s] Invoking command in '/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_bringup': PYTHONPATH=/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_bringup/build --no-deps symlink_data
+[2.025s] running develop
+[2.375s] running egg_info
+[2.375s] creating example_bringup.egg-info
+[2.375s] writing example_bringup.egg-info/PKG-INFO
+[2.375s] writing dependency_links to example_bringup.egg-info/dependency_links.txt
+[2.376s] writing entry points to example_bringup.egg-info/entry_points.txt
+[2.376s] writing requirements to example_bringup.egg-info/requires.txt
+[2.376s] writing top-level names to example_bringup.egg-info/top_level.txt
+[2.377s] writing manifest file 'example_bringup.egg-info/SOURCES.txt'
+[2.380s] reading manifest file 'example_bringup.egg-info/SOURCES.txt'
+[2.381s] writing manifest file 'example_bringup.egg-info/SOURCES.txt'
+[2.384s] running build_ext
+[2.384s] Creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_bringup/lib/python3.10/site-packages/example-bringup.egg-link (link to .)
+[2.387s] 
+[2.388s] Installed /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_bringup
+[2.390s] running symlink_data
+[2.394s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_bringup/share/ament_index
+[2.395s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_bringup/share/ament_index/resource_index
+[2.395s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_bringup/share/ament_index/resource_index/packages
+[2.395s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_bringup/resource/example_bringup -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_bringup/share/ament_index/resource_index/packages
+[2.395s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_bringup/package.xml -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_bringup/share/example_bringup
+[2.396s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_bringup/share/example_bringup/launch
+[2.396s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_bringup/launch/rviz_bringup.launch.py -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_bringup/share/example_bringup/launch
+[2.396s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_bringup/launch/controller.launch.py -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_bringup/share/example_bringup/launch
+[2.472s] Invoked command in '/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_bringup' returned '0': PYTHONPATH=/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/example_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/example_bringup/build --no-deps symlink_data

@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+example_description/__init__.py
+prueba_descriptios.egg-info/PKG-INFO
+prueba_descriptios.egg-info/SOURCES.txt
+prueba_descriptios.egg-info/dependency_links.txt
+prueba_descriptios.egg-info/entry_points.txt
+prueba_descriptios.egg-info/requires.txt
+prueba_descriptios.egg-info/top_level.txt
+prueba_descriptios.egg-info/zip-safe
+resource/prueba_descriptios
+rviz/rviz_config.rviz
+urdf/URDF_PLANO_XY.urdf

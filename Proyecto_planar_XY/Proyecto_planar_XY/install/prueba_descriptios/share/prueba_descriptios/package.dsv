@@ -1,0 +1,9 @@
+source;share/prueba_descriptios/hook/pythonpath.ps1
+source;share/prueba_descriptios/hook/pythonpath.dsv
+source;share/prueba_descriptios/hook/pythonpath.sh
+source;share/prueba_descriptios/hook/ament_prefix_path.ps1
+source;share/prueba_descriptios/hook/ament_prefix_path.dsv
+source;share/prueba_descriptios/hook/ament_prefix_path.sh
+source;../../build/prueba_descriptios/share/prueba_descriptios/hook/pythonpath_develop.ps1
+source;../../build/prueba_descriptios/share/prueba_descriptios/hook/pythonpath_develop.dsv
+source;../../build/prueba_descriptios/share/prueba_descriptios/hook/pythonpath_develop.sh

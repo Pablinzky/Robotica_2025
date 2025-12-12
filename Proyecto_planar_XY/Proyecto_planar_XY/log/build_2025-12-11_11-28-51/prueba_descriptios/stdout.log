@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating prueba_descriptios.egg-info
+writing prueba_descriptios.egg-info/PKG-INFO
+writing dependency_links to prueba_descriptios.egg-info/dependency_links.txt
+writing entry points to prueba_descriptios.egg-info/entry_points.txt
+writing requirements to prueba_descriptios.egg-info/requires.txt
+writing top-level names to prueba_descriptios.egg-info/top_level.txt
+writing manifest file 'prueba_descriptios.egg-info/SOURCES.txt'
+reading manifest file 'prueba_descriptios.egg-info/SOURCES.txt'
+writing manifest file 'prueba_descriptios.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/lib/python3.10/site-packages/prueba-descriptios.egg-link (link to .)
+
+Installed /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios
+running symlink_data
+creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/ament_index
+creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/ament_index/resource_index
+creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/ament_index/resource_index/packages
+symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios/resource/prueba_descriptios -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/ament_index/resource_index/packages
+symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios/package.xml -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/prueba_descriptios
+creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/prueba_descriptios/urdf
+symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios/urdf/URDF_PLANO_XY.urdf -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/prueba_descriptios/urdf
+creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/prueba_descriptios/rviz
+symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios/rviz/rviz_config.rviz -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/prueba_descriptios/rviz

@@ -1,0 +1,27 @@
+[1.621s] Invoking command in '/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios': PYTHONPATH=/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios/build --no-deps symlink_data
+[2.010s] running develop
+[2.333s] running egg_info
+[2.334s] creating prueba_descriptios.egg-info
+[2.334s] writing prueba_descriptios.egg-info/PKG-INFO
+[2.340s] writing dependency_links to prueba_descriptios.egg-info/dependency_links.txt
+[2.340s] writing entry points to prueba_descriptios.egg-info/entry_points.txt
+[2.340s] writing requirements to prueba_descriptios.egg-info/requires.txt
+[2.340s] writing top-level names to prueba_descriptios.egg-info/top_level.txt
+[2.341s] writing manifest file 'prueba_descriptios.egg-info/SOURCES.txt'
+[2.341s] reading manifest file 'prueba_descriptios.egg-info/SOURCES.txt'
+[2.344s] writing manifest file 'prueba_descriptios.egg-info/SOURCES.txt'
+[2.344s] running build_ext
+[2.344s] Creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/lib/python3.10/site-packages/prueba-descriptios.egg-link (link to .)
+[2.346s] 
+[2.346s] Installed /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios
+[2.346s] running symlink_data
+[2.346s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/ament_index
+[2.347s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/ament_index/resource_index
+[2.347s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/ament_index/resource_index/packages
+[2.347s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios/resource/prueba_descriptios -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/ament_index/resource_index/packages
+[2.347s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios/package.xml -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/prueba_descriptios
+[2.347s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/prueba_descriptios/urdf
+[2.347s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios/urdf/URDF_PLANO_XY.urdf -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/prueba_descriptios/urdf
+[2.347s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/prueba_descriptios/rviz
+[2.348s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios/rviz/rviz_config.rviz -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/share/prueba_descriptios/rviz
+[2.438s] Invoked command in '/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios' returned '0': PYTHONPATH=/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/install/prueba_descriptios/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/example_ws_pkg_URDF_renamed_colors2/build/prueba_descriptios/build --no-deps symlink_data
