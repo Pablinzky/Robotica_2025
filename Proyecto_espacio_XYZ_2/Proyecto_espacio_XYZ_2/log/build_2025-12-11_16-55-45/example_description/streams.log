@@ -1,0 +1,27 @@
+[1.582s] Invoking command in '/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/build/example_description': PYTHONPATH=/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/build/example_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/install/example_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/build/example_description/build --no-deps symlink_data
+[1.961s] running develop
+[2.271s] running egg_info
+[2.271s] creating example_description.egg-info
+[2.274s] writing example_description.egg-info/PKG-INFO
+[2.275s] writing dependency_links to example_description.egg-info/dependency_links.txt
+[2.275s] writing entry points to example_description.egg-info/entry_points.txt
+[2.275s] writing requirements to example_description.egg-info/requires.txt
+[2.275s] writing top-level names to example_description.egg-info/top_level.txt
+[2.275s] writing manifest file 'example_description.egg-info/SOURCES.txt'
+[2.276s] reading manifest file 'example_description.egg-info/SOURCES.txt'
+[2.280s] writing manifest file 'example_description.egg-info/SOURCES.txt'
+[2.280s] running build_ext
+[2.280s] Creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/install/example_description/lib/python3.10/site-packages/example-description.egg-link (link to .)
+[2.280s] 
+[2.280s] Installed /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/build/example_description
+[2.281s] running symlink_data
+[2.281s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/install/example_description/share/ament_index
+[2.281s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/install/example_description/share/ament_index/resource_index
+[2.281s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/install/example_description/share/ament_index/resource_index/packages
+[2.281s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/build/example_description/resource/example_description -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/install/example_description/share/ament_index/resource_index/packages
+[2.284s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/build/example_description/package.xml -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/install/example_description/share/example_description
+[2.284s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/install/example_description/share/example_description/urdf
+[2.284s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/build/example_description/urdf/rrr_robot.urdf -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/install/example_description/share/example_description/urdf
+[2.284s] creating /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/install/example_description/share/example_description/rviz
+[2.284s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/build/example_description/rviz/rviz_config.rviz -> /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/install/example_description/share/example_description/rviz
+[2.395s] Invoked command in '/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/build/example_description' returned '0': PYTHONPATH=/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/build/example_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/install/example_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/Semestre-2026-1/Workspaces/Proyectos_Lalo/Proyecto_Robótica/Proyecto_espacio_XYZ_2/build/example_description/build --no-deps symlink_data

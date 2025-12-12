@@ -1,0 +1,65 @@
+<robot name="rrr_robot">
+
+  <!-- BASE -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <geometry><box size="0.2 0.2 0.1"/></geometry>
+      <material name="Black"><color rgba="0.15 0.15 0.18 1.0"/></material>
+    </visual>
+  </link>
+
+  <!-- CILINDRO CIAN (shoulder_link): 10 cm de alto -->
+  <link name="shoulder_link">
+    <visual>
+      <origin xyz="0 0 0.025" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.07" length="0.05"/></geometry>
+      <material name="Cyan"><color rgba="0 0.6 0.6 1.0"/></material>
+    </visual>
+  </link>
+
+  <!-- MAGENTA (0.20 m) -->
+  <link name="arm_link">
+    <visual>
+      <origin xyz="0.1 0 0" rpy="0 0 0"/>
+      <geometry><box size="0.20 0.03 0.03"/></geometry>
+      <material name="Magenta"><color rgba="0.5 0 0.6 1.0"/></material>
+    </visual>
+  </link>
+
+  <!-- AMARILLO (0.35 m) -->
+  <link name="forearm_link">
+    <visual>
+      <origin xyz="0.175 0 0" rpy="0 0 0"/>
+      <geometry><box size="0.35 0.03 0.03"/></geometry>
+      <material name="Yellow"><color rgba="1 0.55 0 1.0"/></material>
+    </visual>
+  </link>
+
+  <!-- JUNTAS -->
+  <joint name="shoulder_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="shoulder_link"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!-- cilindro -> magenta: pitch; positivos = subir (roll=pi invierte sentido) -->
+  <joint name="arm_joint" type="revolute">
+    <parent link="shoulder_link"/>
+    <child link="arm_link"/>
+    <origin xyz="0 0 0.05" rpy="3.14159265 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.5708" upper="1.5708" effort="10.0" velocity="3.14"/>
+  </joint>
+
+  <!-- magenta -> amarillo -->
+  <joint name="forearm_joint" type="revolute">
+    <parent link="arm_link"/>
+    <child link="forearm_link"/>
+    <origin xyz="0.20 0 0" rpy="3.14159265 0 0"/>
+    <axis xyz="0 -1 0"/>
+    <limit lower="-2.61799" upper="1.5708" effort="10.0" velocity="3.14"/>
+  </joint>
+
+</robot>

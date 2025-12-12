@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+example_description/__init__.py
+example_description.egg-info/PKG-INFO
+example_description.egg-info/SOURCES.txt
+example_description.egg-info/dependency_links.txt
+example_description.egg-info/entry_points.txt
+example_description.egg-info/requires.txt
+example_description.egg-info/top_level.txt
+example_description.egg-info/zip-safe
+resource/example_description
+rviz/rviz_config.rviz
+urdf/rrr_robot.urdf

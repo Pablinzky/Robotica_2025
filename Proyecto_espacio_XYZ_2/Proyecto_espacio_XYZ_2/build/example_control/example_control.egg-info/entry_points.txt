@@ -1,0 +1,5 @@
+[console_scripts]
+controller_manager = example_control.controller_manager:main
+hardware_interface = example_control.hardware_interface:main
+manipulator_controller = example_control.manipulator_controller:main
+

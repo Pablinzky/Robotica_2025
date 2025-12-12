@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+example_control/__init__.py
+example_control/controller_manager.py
+example_control/dynamics.py
+example_control/hardware_interface.py
+example_control/kinematics.py
+example_control/manipulator_controller.py
+example_control.egg-info/PKG-INFO
+example_control.egg-info/SOURCES.txt
+example_control.egg-info/dependency_links.txt
+example_control.egg-info/entry_points.txt
+example_control.egg-info/requires.txt
+example_control.egg-info/top_level.txt
+example_control.egg-info/zip-safe
+resource/example_control
